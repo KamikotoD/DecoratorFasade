@@ -13,7 +13,9 @@
             var controllerExperiment2 = new ControllerExperiment(adapter);
             controllerExperiment2.Info();
         }
-        public interface ILizard
+        
+    }
+	public interface ILizard
         {
             public Lizard GetLizard();
         }
@@ -129,6 +131,5 @@
 
             }
         }
-    }
 
 }
